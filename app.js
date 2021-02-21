@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/', (req, res, next) => {
     try {
-        res.status(200).send('Hello there, AWS');
+        res.status(200).send('Hello there, AWS. Please work');
     }
     catch (err) {
         res.status(500).send(err.message);
